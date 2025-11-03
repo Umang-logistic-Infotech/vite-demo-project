@@ -6,9 +6,26 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.admin');
 });
+
 Route::get('/home', function () {
     return view('layouts.admin');
 })->name('home');
+
+Route::get('/themes', function () {
+    return view('layouts.theme');
+})->name('themes');
+
+Route::get('/cards', function () {
+    return view('layouts.cards');
+})->name('cards');
+
+Route::get('/info-box', function () {
+    return view('layouts.info-box');
+})->name('info-box');
+
+Route::get('/small-box', function () {
+    return view('layouts.small-box');
+})->name('small-box');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
