@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
         crossorigin="anonymous" />
     <!--end::Third Party Plugin(Bootstrap Icons)-->
-    @vite('node_modules/admin-lte/dist/css/adminlte.css')
+    @vite('resources/css/adminlte.css')
     <!--begin::Required css(AdminLTE)-->
     {{-- <link rel="stylesheet" href="{{ asset('admin/css/adminlte.css') }}" /> --}}
     <!--end::Required css(AdminLTE)-->

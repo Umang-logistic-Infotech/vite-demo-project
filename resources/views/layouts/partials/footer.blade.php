@@ -5,7 +5,7 @@
     <!--begin::Copyright-->
     <strong>
         Copyright &copy; 2014-2025&nbsp;
-        <a href="https://adminlte.io" class="text-decoration-none">AdminLTE.io</a>.
+        <a href="http://vite-demo-project.local/" class="text-decoration-none">vite-demo-project.local</a>.
     </strong>
     All rights reserved.
     <!--end::Copyright-->
