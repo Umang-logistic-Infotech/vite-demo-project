@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('layouts.admin');
@@ -26,6 +27,14 @@ Route::get('/info-box', function () {
 Route::get('/small-box', function () {
     return view('layouts.small-box');
 })->name('small-box');
+
+Route::get('/tables', function () {
+    return view('layouts.tables');
+})->name('tables');
+
+Route::get('/users', [UserController::class, 'getUsers'])->name('users');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
