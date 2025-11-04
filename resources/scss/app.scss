@@ -1,0 +1,14 @@
+$primary-color: #3490dc;
+$font-stack: Arial, sans-serif;
+
+body {
+    font: 100% $font-stack;
+    // background-color: lighten($primary-color, 45%);
+    background-color: red;
+
+    h1 {
+        color: $primary-color;
+        text-align: center;
+        margin-top: 50px;
+    }
+}

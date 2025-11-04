@@ -5,31 +5,31 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
-    return view('layouts.admin');
+    return view('layouts.partials.content');
 });
 
 Route::get('/home', function () {
-    return view('layouts.admin');
+    return view('layouts.partials.content');
 })->name('home');
 
 Route::get('/themes', function () {
-    return view('layouts.theme');
+    return view('layouts.partials.theme');
 })->name('themes');
 
 Route::get('/cards', function () {
-    return view('layouts.cards');
+    return view('layouts.partials.cards');
 })->name('cards');
 
 Route::get('/info-box', function () {
-    return view('layouts.info-box');
+    return view('layouts.partials.info-box');
 })->name('info-box');
 
 Route::get('/small-box', function () {
-    return view('layouts.small-box');
+    return view('layouts.partials.small-box');
 })->name('small-box');
 
 Route::get('/tables', function () {
-    return view('layouts.tables');
+    return view('layouts.partials.tables');
 })->name('tables');
 
 Route::get('/users', [UserController::class, 'getUsers'])->name('users');
