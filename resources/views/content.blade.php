@@ -3,6 +3,8 @@
 @section('title', 'Admin Content Page')
 
 @section('content')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
+        integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0=" crossorigin="anonymous" />
 
     <body class="layout-fixed sidebar-expand-lg sidebar-open bg-body-tertiary">
         <!--begin::App Wrapper-->
@@ -286,8 +288,6 @@
 
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.min.js"
-            integrity="sha256-+vh8GkaU7C9/wbSLIcwq82tQ2wTf44aOHA8HlBMwRI8=" crossorigin="anonymous"></script>
         <script>
             // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
             // IT'S ALL JUST JUNK FOR DEMO
