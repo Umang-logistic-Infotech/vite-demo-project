@@ -1,3 +1,10 @@
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '@popperjs/core/dist/umd/popper.min.js';
+// Import Bootstrap Icons CSS locally
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'datatables.net-dt/css/dataTables.dataTables.css'; // DataTables CSS
+import 'datatables.net'; 
+
 /*!
  * AdminLTE v4.0.0-rc3 (https://adminlte.io)
  * Copyright 2014-2025 Colorlib <https://colorlib.com>

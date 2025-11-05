@@ -4,8 +4,6 @@
 
 @section('content')
 
-    {{-- <link rel="stylesheet" href="//cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css"> --}}
-    @vite('resources/scss/adminlte.scss')
 
     <body class="layout-fixed sidebar-expand-lg sidebar-open bg-body-tertiary">
 
@@ -49,16 +47,15 @@
                 </div>
             </div>
         </main>
-        {{-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> --}}
-        {{-- @vite('node_modules/datatables.net/js/dataTables.js') --}}
-        {{-- <script type="text/javascript" src="//cdn.datatables.net/2.3.4/js/dataTables.min.js"></script> --}}
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         @vite('resources/js/app.js')
-        {{-- @vite('resources/js/jquery.js')
-        @vite('resources/js/dataTables.js') --}}
+        @vite('resources/js/adminlte.js')
 
         <script>
             $(document).ready(function() {
+                console.log("jQuery is ready!");
+
                 $('#userTable').DataTable({
                     processing: true,
                     serverSide: true,
